@@ -18,6 +18,7 @@ export default defineConfig({
       { text: '功能', link: '/features/organize', activeMatch: '/features/' },
       { text: '配置', link: '/config/drive', activeMatch: '/config/' },
       { text: 'FAQ', link: '/faq' },
+      { text: '联系作者', link: 'https://t.me/mhchat1_bot' },
     ],
 
     sidebar: {
@@ -57,7 +58,7 @@ export default defineConfig({
           items: [
             { text: '仪表盘与工具箱', link: '/features/dashboard' },
             { text: 'TMDB 缓存管理', link: '/features/tmdb-cache' },
-            { text: 'FF 缓存服务', link: '/features/ff-cache-server' },
+            { text: 'FF 缓存', link: '/features/ff-cache-server' },
           ],
         },
         {
